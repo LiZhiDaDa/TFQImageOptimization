@@ -3,7 +3,7 @@
 具体解释见文章[APP查找图片优化](https://juejin.im/post/5bc45a246fb9a05d02611e50)
 
 ### 使用方法：
-```
+
 //情况一：主线程异步执行耗时操作
 [TYTOptimizationPrograms optimizeAsyncMainThreadOperation:^{
     //这里可以放耗时操作
@@ -30,7 +30,6 @@ UIImageView *imageView = [[UIImageView alloc] init];
 [imageView setImageOptimize:@"test"];
 [imageView setHighlightedImageOptimize:@"test"];
 
-```
 ### 期待：
 有什么问题请Issues我，或者到掘金去给我评论，一定及时回复。
 
