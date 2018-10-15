@@ -1,10 +1,8 @@
 # TFQImageOptimization
-查找图片优化
 
+具体解释见文章[APP查找图片优化](https://juejin.im/post/5bc45a246fb9a05d02611e50)
 
-博客地址：https://juejin.im/post/5bc45a246fb9a05d02611e50
-
-使用方法：
+### 使用方法：
 ```
 //情况一：主线程异步执行耗时操作
 [TYTOptimizationPrograms optimizeAsyncMainThreadOperation:^{
@@ -33,3 +31,7 @@ UIImageView *imageView = [[UIImageView alloc] init];
 [imageView setHighlightedImageOptimize:@"test"];
 
 ```
+### 期待：
+有什么问题请Issues我，或者到掘金去给我评论，一定及时回复。
+
+有什么想法也可以Pull requests，想法好一定同意commit
