@@ -13,6 +13,9 @@
 		F76871672174A336002F6C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76871662174A336002F6C79 /* Assets.xcassets */; };
 		F768716A2174A336002F6C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76871682174A336002F6C79 /* LaunchScreen.storyboard */; };
 		F768716D2174A336002F6C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F768716C2174A336002F6C79 /* main.m */; };
+		F768717A2174A4D9002F6C79 /* TYTOptimizationPrograms.m in Sources */ = {isa = PBXBuildFile; fileRef = F76871772174A4D9002F6C79 /* TYTOptimizationPrograms.m */; };
+		F768717B2174A4D9002F6C79 /* UIImageView+TYTImageOptimize.m in Sources */ = {isa = PBXBuildFile; fileRef = F76871782174A4D9002F6C79 /* UIImageView+TYTImageOptimize.m */; };
+		F768717C2174A4D9002F6C79 /* UIButton+TYTImageOptimize.m in Sources */ = {isa = PBXBuildFile; fileRef = F76871792174A4D9002F6C79 /* UIButton+TYTImageOptimize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		F76871692174A336002F6C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F768716B2174A336002F6C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F768716C2174A336002F6C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F76871742174A4D9002F6C79 /* TYTOptimizationPrograms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTOptimizationPrograms.h; sourceTree = "<group>"; };
+		F76871752174A4D9002F6C79 /* UIButton+TYTImageOptimize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TYTImageOptimize.h"; sourceTree = "<group>"; };
+		F76871762174A4D9002F6C79 /* UIImageView+TYTImageOptimize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TYTImageOptimize.h"; sourceTree = "<group>"; };
+		F76871772174A4D9002F6C79 /* TYTOptimizationPrograms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTOptimizationPrograms.m; sourceTree = "<group>"; };
+		F76871782174A4D9002F6C79 /* UIImageView+TYTImageOptimize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TYTImageOptimize.m"; sourceTree = "<group>"; };
+		F76871792174A4D9002F6C79 /* UIButton+TYTImageOptimize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TYTImageOptimize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 		F768715C2174A334002F6C79 /* TFQImageOptimization */ = {
 			isa = PBXGroup;
 			children = (
+				F76871732174A4D9002F6C79 /* Optimization */,
 				F768715D2174A334002F6C79 /* AppDelegate.h */,
 				F768715E2174A334002F6C79 /* AppDelegate.m */,
 				F76871602174A334002F6C79 /* ViewController.h */,
@@ -69,6 +79,19 @@
 				F768716C2174A336002F6C79 /* main.m */,
 			);
 			path = TFQImageOptimization;
+			sourceTree = "<group>";
+		};
+		F76871732174A4D9002F6C79 /* Optimization */ = {
+			isa = PBXGroup;
+			children = (
+				F76871742174A4D9002F6C79 /* TYTOptimizationPrograms.h */,
+				F76871772174A4D9002F6C79 /* TYTOptimizationPrograms.m */,
+				F76871752174A4D9002F6C79 /* UIButton+TYTImageOptimize.h */,
+				F76871792174A4D9002F6C79 /* UIButton+TYTImageOptimize.m */,
+				F76871762174A4D9002F6C79 /* UIImageView+TYTImageOptimize.h */,
+				F76871782174A4D9002F6C79 /* UIImageView+TYTImageOptimize.m */,
+			);
+			path = Optimization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76871622174A334002F6C79 /* ViewController.m in Sources */,
+				F768717B2174A4D9002F6C79 /* UIImageView+TYTImageOptimize.m in Sources */,
+				F768717C2174A4D9002F6C79 /* UIButton+TYTImageOptimize.m in Sources */,
 				F768716D2174A336002F6C79 /* main.m in Sources */,
 				F768715F2174A334002F6C79 /* AppDelegate.m in Sources */,
+				F768717A2174A4D9002F6C79 /* TYTOptimizationPrograms.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
