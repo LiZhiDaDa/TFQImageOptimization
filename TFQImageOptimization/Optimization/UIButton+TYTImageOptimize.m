@@ -7,6 +7,7 @@
 //
 
 #import "UIButton+TYTImageOptimize.h"
+#import "TYTOptimizationPrograms.h"
 
 typedef NS_ENUM(NSInteger, TYTImageType){
     TYTImageTypeNormal = 0, //正常图片

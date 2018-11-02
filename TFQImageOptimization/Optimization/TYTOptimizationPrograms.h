@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
-typedef void(^childThreadOperation)();
-typedef void(^mainThreadOperation)();
+typedef void(^childThreadOperation)(void);
+typedef void(^mainThreadOperation)(void);
 
 @interface TYTOptimizationPrograms : NSObject
 
