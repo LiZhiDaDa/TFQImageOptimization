@@ -34,6 +34,8 @@ typedef NS_ENUM(NSInteger, TYTImageType){
         image = [UIImage imageWithContentsOfFile:path];
         if(image == nil){
             //Images.xcassets中的图片资源只能通过imageNamed:方法加载
+            //官方解释：In iOS 9 and later, this method is thread safe.
+            //iOS9以下很小概率会crash或者返回nil
             image = [UIImage imageNamed:imageName];
         }
     } toMainThreadOperation:^{

@@ -45,6 +45,9 @@
     UIImageView *imageView = [[UIImageView alloc] init];
     [imageView setImageOptimize:@"test"];
     [imageView setHighlightedImageOptimize:@"test"];
+    
+    imageView.frame = CGRectMake(40, 40, 108, 192);
+    [self.view addSubview:imageView];
 }
 
 
